@@ -25,5 +25,6 @@ cd /opt/geonode
 docker logs -f django4geonode
 ```
 
+
 ### Running
 Browse GeoNode installation at http://localhost
