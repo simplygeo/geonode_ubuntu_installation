@@ -3,7 +3,7 @@ GeoNode 3.2.x installation script (based on GeoNode Docker images) for Ubuntu 20
 
 <hr>
 
-## Usage: Simple, single script installer
+## Usage: Simple, single script installer (not fully tested yet, please use two scripts installer below)
 ``` bash
 wget https://raw.githubusercontent.com/simplygeo/geonode_ubuntu_installation/main/install-geonode-ubuntu.sh
 chmod +x install-geonode-ubuntu.sh
