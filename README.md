@@ -30,6 +30,7 @@ docker logs -f django4geonode
 Browse GeoNode installation at http://localhost
 
 Default user name: admin
+
 Default password: admin
 
 
