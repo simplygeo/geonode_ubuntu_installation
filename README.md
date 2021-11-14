@@ -28,3 +28,28 @@ docker logs -f django4geonode
 
 ### Running
 Browse GeoNode installation at http://localhost
+
+
+### Stop GeoNode
+``` bash
+  cd /opt/geonode
+  docker-compose stop
+```
+
+### Start GeoNode
+``` bash
+  cd /opt/geonode
+  docker-compose up -d
+```
+
+### Change GeoNode hostname/ip address:
+``` bash
+  # stop GeoNode
+  cd /opt/geonode
+  docker-compose stop
+  # edit .env file using text editor (vi/nano/etc), change all occurence of "localhost" into desired hostname/ip address
+  # turn GeoNode on again
+  cd /opt/geonode
+  docker-compose up -d
+```
+
