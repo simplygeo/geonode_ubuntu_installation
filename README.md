@@ -1,6 +1,8 @@
 # GeoNode Installation Script for Ubuntu Linux
 GeoNode 3.2.x installation script (based on GeoNode Docker images) for Ubuntu 20.04
 
+<hr>
+
 ## Usage: Simple, single script installer
 ``` bash
 wget https://raw.githubusercontent.com/simplygeo/geonode_ubuntu_installation/main/install-geonode-ubuntu.sh
@@ -13,6 +15,8 @@ cd /opt/geonode
 docker logs -f django4geonode
 ```
 
+
+<hr>
 
 ## Usage: Two script installer, check docker first and then proceed GeoNode install
 
@@ -39,6 +43,7 @@ cd /opt/geonode
 docker logs -f django4geonode
 ```
 
+<hr>
 
 ## Running
 Browse GeoNode installation at http://localhost
