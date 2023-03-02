@@ -48,7 +48,7 @@ Default password: admin
 ### Start GeoNode
 ``` bash
   cd /opt/geonode
-  docker-compose up -d
+  docker-compose start
 ```
 
 ### Change GeoNode hostname/ip address:
@@ -59,6 +59,6 @@ Default password: admin
   # edit .env file using text editor (vi/nano/etc), change all occurence of "localhost" into desired hostname/ip address
   # turn GeoNode on again
   cd /opt/geonode
-  docker-compose up -d
+  docker-compose start
 ```
 
